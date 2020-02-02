@@ -32,7 +32,7 @@ def criarRede():
     return classificador
 
 #############################################
-#  DEFINIÇÃO DAS ÉPOCAS E BATCH_SIZE = 10   #
+#      DEFINIÇÃO DAS ÉPOCAS E BATCH_SIZE    #
 #############################################
 classificador = KerasClassifier(build_fn = criarRede,
                                 epochs = 100,
