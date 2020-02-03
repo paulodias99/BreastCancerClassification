@@ -35,8 +35,8 @@ def criarRede():
 #      DEFINIÇÃO DAS ÉPOCAS E BATCH_SIZE    #
 #############################################
 classificador = KerasClassifier(build_fn = criarRede,
-                                epochs = 100,
-                                batch_size = 10)
+                                epochs = 500,
+                                batch_size = 50)
 resultados = cross_val_score(estimator = classificador,
                              X = previsores, y = classe,
                              cv = 10, scoring = 'accuracy')
