@@ -8,7 +8,7 @@ do diagnóstico do câncer de mama através de uma rede neural que recebe os dad
 ### Atenção ⚠
 * São três arquivos <b>.py</b>, mas somente o arquivo que deve ter a taxa de precisão considerada é o de <b>validação cruzada</b>.
 
-### Pré requesitos ✋
+### Pré requisitos ✋
 * Pandas 0.25.1
 * Python 3.7
 * Keras 2.3.1
